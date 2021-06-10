@@ -1,0 +1,239 @@
+/**** BASE STYLES ****/
+
+@font-face {
+    font-family: 'EncodeSans';
+    src: url('../fonts/encode-sans/EncodeSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EmilysCandy';
+    src: url('../fonts/emilys-candy/EmilysCandy-Regular.ttf');
+}
+
+body {
+    font-family: 'EncodeSans', sans-serif;
+}
+
+/**** GRID ****/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/**** HEADER ****/
+
+header {
+    background-color: #202124;
+    height: 125px;
+}
+
+header h1 {
+    color: #d121b1;
+    font-family: 'EmilysCandy', cursive;
+    font-size: 38px;
+    padding: 0 0 0 25px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    font-size: 55px;
+}
+
+nav {
+    float: right;
+    padding: 40px 25px 0 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #e8eaed;
+    font-size: 25px;
+    padding-left: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a span {
+    font-size: 20px;
+}
+
+/**** PICTURE & INTRO ****/
+
+#picture {
+    background-color: #202124;
+}
+
+#picture .full-width {
+    background: url('../img/hounddogs-neb2_1.jpg') no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 539px;
+}
+
+#intro {
+    background-color: #202124;
+    height: 125px;
+    padding-top: 10px;
+}
+
+#intro h1 {
+    color: #e8eaed;
+    font-family: 'RobotoSlab', serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+#intro h1 span {
+    color: #d121b1;
+}
+
+/**** ABOUT ****/
+
+#about .full-width {
+    background-color: #e8eaed
+    padding: 80px 0;
+}
+
+#about h2 {
+    color: #d121b1;
+    font-family: 'EncodeSans', sans-serif;
+    font-size: 36px;
+    padding: 75px 0 0 50px;
+}
+
+#about p {
+    color: #7f7f7f;
+    font-size: 19px;
+    line-height: 40px;
+    padding: 0 50px 100px 50px;
+    text-align: justify;
+}
+
+/**** WORK ****/
+
+#work {
+    background-color: #d121b1;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    color: #e8eaed;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 210px;
+}
+
+#work p {
+    color: #202124;
+    font-family: 'EncodeSans', sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 30px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+/**** CONTACT ****/
+
+#contact {
+    background-color: #202124;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-image {
+    border: 12px solid #e8eaed;
+    margin-left: 150px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 40px;
+    padding-right: 125px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 40px;
+}
+
+#contact h2 {
+    color: #d121b1;
+    font-family: 'EncodeSans', sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header {
+    color: #e8eaed;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    color: #d121b1;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 30px 0 0 0;
+}
+
+#contact a {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 15px;
+}
+
+/**** FOOTER ****/
+
+footer h4 {
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 10px 0;
+}
